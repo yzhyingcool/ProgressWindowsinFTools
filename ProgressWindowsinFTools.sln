@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{AE5B75D7-23D6-48F0-9FFF-6E94E08F9D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.FToolsforExcel.Progress", "Com.FToolsforExcel.Progress\Com.FToolsforExcel.Progress.csproj", "{D5088900-E425-47AF-9E92-0885C50C5025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE5B75D7-23D6-48F0-9FFF-6E94E08F9D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5B75D7-23D6-48F0-9FFF-6E94E08F9D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5B75D7-23D6-48F0-9FFF-6E94E08F9D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5B75D7-23D6-48F0-9FFF-6E94E08F9D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5088900-E425-47AF-9E92-0885C50C5025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5088900-E425-47AF-9E92-0885C50C5025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5088900-E425-47AF-9E92-0885C50C5025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5088900-E425-47AF-9E92-0885C50C5025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {566FD719-E332-43A3-8C23-8B82C41EA27F}
+	EndGlobalSection
+EndGlobal
