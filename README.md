@@ -18,14 +18,14 @@
   #show窗体
       *if (this.ShowProgressWindow(this))
       {
-          for (int i = 0; i < 100; i++)
-          {
+         for (int i = 0; i < 100; i++)
+         {
               Thread.Sleep(200);
               #传递进度
               *OnProgressChanged(this.progressChangedEventHandler, i + 1, 100);
-          }
-      }
-      #关闭窗体
-      *this.CloseProgressWindow();
-      MessageBox.Show(finishedTips);
+              }
+         }
+         #关闭窗体
+         *this.CloseProgressWindow();
+         MessageBox.Show(finishedTips);
   }
