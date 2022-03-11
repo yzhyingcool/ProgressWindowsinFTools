@@ -1,5 +1,5 @@
 # ProgressWindowsinFTools
-一个‘简单的WPF进度窗口，使用Thread实现异步进度
+一个简单的WPF进度窗口，使用Thread实现异步进度
 
 一、Com.FToolsforExcel.Progress项目
 包含
@@ -10,10 +10,14 @@
 
 二、Demo项目
 工作类引用命名空间using Com.FToolsforExcel.Progress;
+
 工作类继承ProgressMessageSender类，实现IProgressProcessor接口；
- *class ProgramExcute:ProgressMessageSender,IProgressProcessor*
- 
- public  void Excute(string finishedTips)
+
+```class ProgramExcute:ProgressMessageSender,IProgressProcessor```
+
+在工作方法中操作窗体与进度
+```
+public  void Excute(string finishedTips)
   {
   #show窗体
       *if (this.ShowProgressWindow(this))
@@ -29,3 +33,4 @@
          *this.CloseProgressWindow();
          MessageBox.Show(finishedTips);
   }
+  ```
