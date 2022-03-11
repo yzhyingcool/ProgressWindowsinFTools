@@ -1,6 +1,9 @@
 # ProgressWindowsinFTools
 一个简单的WPF进度窗口，使用Thread实现异步进度
 
+
+![This is an image](https://img2022.cnblogs.com/blog/1458014/202203/1458014-20220311212301549-1253527518.gif)
+
 一、Com.FToolsforExcel.Progress项目
 包含
 进度窗口类ProgressWindow，用于展示进度；
