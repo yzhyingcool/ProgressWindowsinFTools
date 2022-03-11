@@ -22,18 +22,18 @@
 ```
 public  void Excute(string finishedTips)
   {
-  #show窗体
-      *if (this.ShowProgressWindow(this))
+      #show窗体
+      if (this.ShowProgressWindow(this))
       {
          for (int i = 0; i < 100; i++)
          {
               Thread.Sleep(200);
               #传递进度
-              *OnProgressChanged(this.progressChangedEventHandler, i + 1, 100);
+              OnProgressChanged(this.progressChangedEventHandler, i + 1, 100);
               }
          }
          #关闭窗体
-         *this.CloseProgressWindow();
+         this.CloseProgressWindow();
          MessageBox.Show(finishedTips);
   }
   ```
